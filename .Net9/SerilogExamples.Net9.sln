@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.ConsoleApp.Net9", "ConsoleApp\Serilog.ConsoleApp.Net9\Serilog.ConsoleApp.Net9.csproj", "{5946F4A6-22C2-5CFC-2D4F-43C4C6A29FBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.BlazorApp.Net9", "BlazorApp\Serilog.BlazorApp.Net9\Serilog.BlazorApp.Net9.csproj", "{27DA7633-34CE-4A15-99AE-F2E85603D725}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5946F4A6-22C2-5CFC-2D4F-43C4C6A29FBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5946F4A6-22C2-5CFC-2D4F-43C4C6A29FBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5946F4A6-22C2-5CFC-2D4F-43C4C6A29FBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5946F4A6-22C2-5CFC-2D4F-43C4C6A29FBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27DA7633-34CE-4A15-99AE-F2E85603D725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27DA7633-34CE-4A15-99AE-F2E85603D725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27DA7633-34CE-4A15-99AE-F2E85603D725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27DA7633-34CE-4A15-99AE-F2E85603D725}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {93686BDE-DFAC-496C-8022-46D38F3740A6}
+	EndGlobalSection
+EndGlobal
