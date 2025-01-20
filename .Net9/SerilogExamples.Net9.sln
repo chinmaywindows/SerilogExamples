@@ -9,6 +9,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.BlazorApp.Net9", "B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.MauiApp.Net9", "MAUI\Serilog.MauiApp.Net9\Serilog.MauiApp.Net9.csproj", "{8BED2B37-6499-4884-81C0-86CFC7CE7187}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.AspireApp.Net9.AppHost", "AspireApp\Serilog.AspireApp.Net9\Serilog.AspireApp.Net9.AppHost\Serilog.AspireApp.Net9.AppHost.csproj", "{D15190B2-465C-42F5-A57E-AB50EC7DE473}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.AspireApp.Net9.ServiceDefaults", "AspireApp\Serilog.AspireApp.Net9\Serilog.AspireApp.Net9.ServiceDefaults\Serilog.AspireApp.Net9.ServiceDefaults.csproj", "{48D8B95B-BC16-A98F-9060-AD1E54E757D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.AspireApp.Net9.ApiService", "AspireApp\Serilog.AspireApp.Net9\Serilog.AspireApp.Net9.ApiService\Serilog.AspireApp.Net9.ApiService.csproj", "{5ADFEBA1-F6C6-20E0-7367-92E5D1C21263}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.AspireApp.Net9.Web", "AspireApp\Serilog.AspireApp.Net9\Serilog.AspireApp.Net9.Web\Serilog.AspireApp.Net9.Web.csproj", "{8D39B400-7E9E-EA81-71F2-10F696160A07}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +35,22 @@ Global
 		{8BED2B37-6499-4884-81C0-86CFC7CE7187}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BED2B37-6499-4884-81C0-86CFC7CE7187}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BED2B37-6499-4884-81C0-86CFC7CE7187}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D15190B2-465C-42F5-A57E-AB50EC7DE473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D15190B2-465C-42F5-A57E-AB50EC7DE473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D15190B2-465C-42F5-A57E-AB50EC7DE473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D15190B2-465C-42F5-A57E-AB50EC7DE473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48D8B95B-BC16-A98F-9060-AD1E54E757D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48D8B95B-BC16-A98F-9060-AD1E54E757D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48D8B95B-BC16-A98F-9060-AD1E54E757D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48D8B95B-BC16-A98F-9060-AD1E54E757D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ADFEBA1-F6C6-20E0-7367-92E5D1C21263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ADFEBA1-F6C6-20E0-7367-92E5D1C21263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ADFEBA1-F6C6-20E0-7367-92E5D1C21263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ADFEBA1-F6C6-20E0-7367-92E5D1C21263}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D39B400-7E9E-EA81-71F2-10F696160A07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D39B400-7E9E-EA81-71F2-10F696160A07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D39B400-7E9E-EA81-71F2-10F696160A07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D39B400-7E9E-EA81-71F2-10F696160A07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
