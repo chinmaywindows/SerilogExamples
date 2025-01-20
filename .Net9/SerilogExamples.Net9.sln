@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.ConsoleApp.Net9", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.BlazorApp.Net9", "BlazorApp\Serilog.BlazorApp.Net9\Serilog.BlazorApp.Net9.csproj", "{27DA7633-34CE-4A15-99AE-F2E85603D725}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.MauiApp.Net9", "MAUI\Serilog.MauiApp.Net9\Serilog.MauiApp.Net9.csproj", "{8BED2B37-6499-4884-81C0-86CFC7CE7187}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{27DA7633-34CE-4A15-99AE-F2E85603D725}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27DA7633-34CE-4A15-99AE-F2E85603D725}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27DA7633-34CE-4A15-99AE-F2E85603D725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BED2B37-6499-4884-81C0-86CFC7CE7187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BED2B37-6499-4884-81C0-86CFC7CE7187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BED2B37-6499-4884-81C0-86CFC7CE7187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BED2B37-6499-4884-81C0-86CFC7CE7187}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
